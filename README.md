@@ -21,4 +21,9 @@ required. See each project's README for how to port it to a hosted API later.
 4. [`04-agent-with-tools`](04-agent-with-tools) — a hand-rolled agent loop
    (no LangChain/Agent SDK): calculator, sandboxed file reader, and doc
    search (reusing Project 3's index) as tools.
-5. _(next: multi-agent / MCP integration)_
+5. [`05-multi-agent-mcp`](05-multi-agent-mcp) — tools served over a real
+   MCP server, plus an orchestrator that routes requests to scoped
+   specialist agents. Documents two real model quirks found along the way.
+
+All five phases of the original roadmap are now scaffolded, working, and
+verified end to end against a local model.
