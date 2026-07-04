@@ -1,0 +1,8 @@
+[project]
+name = "02-evaluated-prompting"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+]
